@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun startWhatsapp(number: String) {
         val i = Intent(Intent.ACTION_VIEW)
-        i.setPackage("com.whatsapp")
+        i.setPackage("com.whatsapp.w4b")
         var data = if (number[0] == '+') {
             number.substring(1)
         } else {
